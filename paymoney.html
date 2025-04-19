@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pay Your Friend</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding-top: 100px;
+      background: #f8f8f8;
+    }
+    h1 {
+      color: #333;
+    }
+    button {
+      font-size: 20px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      background-color: #00c853;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Niche click kar</h1>
+  <button onclick="payNow()">Yaha par</button>
+
+  <script>
+    function payNow() {
+      // Replace with your friend's UPI ID and your message
+      const upiLink = "upi://pay?pa=nikhilranger18@oksbi&pn=Friend&am=260&cu=INR&tn=Udhari wapas";
+      window.location.href = upiLink;
+    }
+  </script>
+</body>
+</html>
